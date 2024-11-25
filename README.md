@@ -1,50 +1,29 @@
-# React + TypeScript + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## `Don't Be Quick`
 
-Currently, two official plugins are available:
+> The goal of any web developer should be to accomplish as much as possible with as little javascript as possible.
+> Building websites is never about writing code. It is about two things: One, it is about the people that visit your
+> site.
+> Two, it is about the story you want to tell. That story could be about you, a product, someone else, or a place. The
+> point
+> is the visitors of your site are searching for something, and your job is to satisfy that drive. Programming languages
+> are not particularly suited to this task. They are procedural, mechanical, and do not possess the necessary
+> aptitudes to ὁμιλέω (homileo) which means to talk or converse. HTML and CSS however, are declarative and off semantics
+> with which one can express an idea, or convey a desire. These are the channels by which a visitor may find what they
+> are searching for.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## `Defer and Be Simple`
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+> Defer the use of a procedural language when trying to tell a story. This is something building this site has made more
+> clear to me, be simple. It's not dogma, or an idiom, just advice I kept giving myself. Doing the simplest thing that
+> was necessary to accomplish the requirement. For the most part, we do this today. Javascript is probably the smallest
+> part of creating a website. There are loads of planning, architecture, and User Design that culminates into the
+> aggregate
+> we call a website. Javascript is just one part, and in comparison to the entire project is just a small piece. Even
+> frameworks
+> are shrinking their javascript payloads, moving toward compilers and fine-grain reactivity. But those are overkill
+> when
+> you want to build a blog, portfolio, or a simple tool. Don't be quick to complicate development. Keep it simple. Be
+> lazy,
+> defer, and do what you must and no more. 
