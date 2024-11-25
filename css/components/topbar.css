@@ -1,0 +1,10 @@
+﻿.topbar {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding-block: 1rem;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-bottom: 1px solid #eee;
+    box-shadow: rgba(60, 64, 67, 0.3) 0 1px 2px 0, rgba(60, 64, 67, 0.15) 0 1px 3px 1px;
+}

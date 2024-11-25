@@ -1,0 +1,42 @@
+﻿.navigation {
+    justify-self: end;
+    height: 100%;
+    align-content: center;
+}
+
+.anchor-button {
+    position: relative;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0.2rem;
+    color: #242424;
+    transition: background-color 0.15s ease-out;
+
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    &:hover:not([data-active])::after {
+        border: 1px solid black;
+    }
+
+
+}
+
+[data-active] {
+    background-color: #eee;
+}
+
+@media (width < 901px) {
+    .navigation {
+        display: none;
+    }
+}

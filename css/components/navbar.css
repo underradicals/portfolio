@@ -1,0 +1,15 @@
+﻿.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-column: 2 / 3;
+    background-color: inherit;
+}
+
+@media (width < 901px) {
+    .navbar {
+        display: block;
+        align-content: center;
+        text-align: center;
+    }
+}

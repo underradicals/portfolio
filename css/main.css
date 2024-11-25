@@ -1,0 +1,73 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    /*border: 1px solid black;*/
+}
+
+html {
+    font-size: var(--fs-base);
+}
+
+body {
+    font-family: var(--ff-base);
+    font-weight: 300;
+    margin: 0;
+    block-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, pre, ol, ul, p, .title {
+    margin-inline: 0;
+    margin-block: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-block-start: 2rem;
+    margin-block-end: 0.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-block-start: 1.5rem;
+    margin-block-end: 0.5rem;
+}
+
+h3 {
+    font-size: 1.67rem;
+    margin-block-start: 1rem;
+    margin-block-end: 0.67rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+    margin-block-start: 1rem;
+    margin-block-end: 0.4rem;
+}
+
+h5 {
+    font-size: 1.16rem;
+    margin-block-end: 1.16rem;
+}
+
+h6 {
+    font-size: 1rem;
+    margin-block-end: 1rem;
+}
+
+p {
+    padding-block: 1rem;
+    padding-inline: 1rem;
+    line-height: 1.618rem;
+    font-size: 1.2rem;
+    max-width: 75ch;
+    text-indent: 1.5rem;
+    text-wrap: pretty;
+    text-rendering: geometricPrecision;
+}
